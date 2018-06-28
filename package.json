@@ -1,0 +1,25 @@
+{
+  "name": "rewrite-to-spotify-uri",
+  "version": "1.0.0",
+  "description": "Rewrites Spotify URIs and HTTP links to Spotify application URIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": [
+    "spotify",
+    "uri"
+  ],
+  "author": "Mark Cicoria",
+  "license": "MIT",
+  "dependencies": {
+    "url-regex": "^4.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.21.1"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
